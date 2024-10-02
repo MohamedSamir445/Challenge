@@ -21,7 +21,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t mohamedsamir7744/challenge-api:latest .
+          docker build -t mohamedsamir7744/challenge-api:latest -f api/Dockerfile .
 
       - name: Push Docker image
         run: |
